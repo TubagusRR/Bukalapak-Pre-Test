@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Practice Suite">
+
+    <parameter name="module" value="app"></parameter>
+    <parameter name="browser" value="chrome"/>
+
+    <test name="Mobile Login Test">
+        <classes>
+            <class name="bukalapakTest.tests.androidTest"/>
+        </classes>
+    </test>
+</suite>

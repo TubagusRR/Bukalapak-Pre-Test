@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Practice Suite">
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="module" value="web"></parameter>
+    <test name="Bukalapak Website Register Testing ">
+        <classes>
+            <class name="bukalapakTest.tests.webTest"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="91eebbb2-2eae-48ff-9731-2f3f91981117" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1eoHBM38SBMZm9LmB6h89Fcsy5X" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/bukalapakTest/steps" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="bukalapakTest.steps" />
+      <recent name="bukalapakPreTest.api" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Interview\Bukalapak\BukalapakPreTest\src\main\resources\features\" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.E:/Interview/Bukalapak/BukalapakPreTest/src/testsuites/api.xml">
+    <configuration name="Feature: register" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/web/register.feature" />
+      <option name="GLUE" value="bukalapakTest.runner bukalapakTest.steps" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="BukalapakPreTest" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: register" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E:/Interview/Bukalapak/BukalapakPreTest/src/testsuites/android.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BukalapakPreTest" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/testsuites/android.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E:/Interview/Bukalapak/BukalapakPreTest/src/testsuites/api.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BukalapakPreTest" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/testsuites/api.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E:/Interview/Bukalapak/BukalapakPreTest/src/testsuites/web.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BukalapakPreTest" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/testsuites/web.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="webTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BukalapakPreTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bukalapakTest.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bukalapakTest.tests" />
+      <option name="MAIN_CLASS_NAME" value="bukalapakTest.tests.webTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Cucumber java.Feature: register" />
+      <item itemvalue="TestNG.E:/Interview/Bukalapak/BukalapakPreTest/src/testsuites/api.xml" />
+      <item itemvalue="TestNG.E:/Interview/Bukalapak/BukalapakPreTest/src/testsuites/web.xml" />
+      <item itemvalue="TestNG.webTest" />
+      <item itemvalue="TestNG.E:/Interview/Bukalapak/BukalapakPreTest/src/testsuites/android.xml" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.E:/Interview/Bukalapak/BukalapakPreTest/src/testsuites/api.xml" />
+        <item itemvalue="TestNG.E:/Interview/Bukalapak/BukalapakPreTest/src/testsuites/android.xml" />
+        <item itemvalue="TestNG.E:/Interview/Bukalapak/BukalapakPreTest/src/testsuites/web.xml" />
+        <item itemvalue="TestNG.webTest" />
+        <item itemvalue="Cucumber java.Feature: register" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="91eebbb2-2eae-48ff-9731-2f3f91981117" name="Default Changelist" comment="" />
+      <created>1594980888278</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594980888278</updated>
+    </task>
+    <servers />
+  </component>
+</project>
