@@ -9,9 +9,9 @@ public class webTest extends BaseClass {
         bukalapakTest.WebregisterPage().goTo("https://www.bukalapak.com/");
         bukalapakTest.WebregisterPage().clickRegisterButton();
         bukalapakTest.WebregisterPage().Register(
-                "TestingPr28",
-                "uhywqwqrq@gmail.com",
-                "pre974",
+                "TestingPr28axsdf",
+                "uxwqxwfdxrq@gmail.com",
+                "pre9x4x32",
                 "testingpre10",
                 "testingpre10");
         bukalapakTest.WebregisterPage().clickAgreement();

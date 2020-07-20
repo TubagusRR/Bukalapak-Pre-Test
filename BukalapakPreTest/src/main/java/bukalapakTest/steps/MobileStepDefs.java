@@ -19,8 +19,8 @@ public class MobileStepDefs extends BaseClass {
     @Then("^Fill Register Form with Valid Credential$")
     public void Fill_Register_Form_with_Valid_Credential(){
         bukalapakTest.MobileregisterPage().register(
-                "Asdfbfdmq",
-                "asdfopli@gmail.com",
+                "Asdfxfdmqreqpo",
+                "asdfopxsd0912@gmail.com",
                 "asdf",
                 "asdf"
         );

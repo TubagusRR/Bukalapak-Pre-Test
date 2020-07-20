@@ -1,6 +1,5 @@
 package bukalapakTest.API;
 
-import io.restassured.response.Response;
 import org.hamcrest.Matchers;
 import org.testng.annotations.Test;
 

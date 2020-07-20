@@ -20,9 +20,9 @@ public class WebsiteStepDefs extends BaseClass {
     @Then("^Fill the Form with Valid Credential$")
     public void Fill_the_Form_with_Valid_Credential(){
         bukalapakTest.WebregisterPage().Register(
-                "optani3910",
-                "t026gqwe@gmail.com",
-                "aji09ab",
+                "optani3x3123",
+                "t027xqwexeq@gmail.com",
+                "aji10xalxjo",
                 "asdf123",
                 "asdf123"
 

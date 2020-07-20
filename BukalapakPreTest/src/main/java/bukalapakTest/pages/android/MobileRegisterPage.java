@@ -24,6 +24,7 @@ public class MobileRegisterPage extends BasePage {
     }
 
     public void fillName(String name){
+        sleep(1000);
         TypeElementUsingId("textInputEditTextName" ,name);
     }
 

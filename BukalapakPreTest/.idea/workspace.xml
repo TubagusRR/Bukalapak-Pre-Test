@@ -3,19 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="91eebbb2-2eae-48ff-9731-2f3f91981117" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bukalapakTest/API/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bukalapakTest/API/ApiTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bukalapakTest/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bukalapakTest/pages/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bukalapakTest/pages/android/MobileRegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bukalapakTest/pages/android/MobileRegisterPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bukalapakTest/pages/web/WebsiteRegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bukalapakTest/pages/web/WebsiteRegisterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bukalapakTest/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bukalapakTest/runner/TestRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bukalapakTest/steps/MobileStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bukalapakTest/steps/MobileStepDefs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bukalapakTest/steps/WebsiteStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bukalapakTest/steps/WebsiteStepDefs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bukalapakTest/tests/androidTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bukalapakTest/tests/androidTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bukalapakTest/tests/webTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bukalapakTest/tests/webTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bukalapakTest/api/ApiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bukalapakTest/api/ApiTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bukalapakTest/pages/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bukalapakTest/pages/BasePage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/bukalapakTest/pages/android/MobileRegisterPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bukalapakTest/pages/android/MobileRegisterPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bukalapakTest/pages/web/WebsiteRegisterPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bukalapakTest/pages/web/WebsiteRegisterPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/bukalapakTest/steps/MobileStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bukalapakTest/steps/MobileStepDefs.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/bukalapakTest/steps/WebsiteStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bukalapakTest/steps/WebsiteStepDefs.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/bukalapakTest/tests/androidTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bukalapakTest/tests/androidTest.class" afterDir="false" />
@@ -70,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Feature: register">
+  <component name="RunManager" selected="TestNG.E:/Interview/Bukalapak/BukalapakPreTest/src/testsuites/android.xml">
     <configuration name="Feature: register (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/android/register.feature" />
@@ -145,19 +140,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.E:/Interview/Bukalapak/BukalapakPreTest/src/testsuites/web.xml" />
       <item itemvalue="Cucumber java.Feature: register (1)" />
+      <item itemvalue="Cucumber java.Feature: register" />
+      <item itemvalue="TestNG.E:/Interview/Bukalapak/BukalapakPreTest/src/testsuites/web.xml" />
       <item itemvalue="TestNG.webTest" />
       <item itemvalue="TestNG.E:/Interview/Bukalapak/BukalapakPreTest/src/testsuites/android.xml" />
-      <item itemvalue="Cucumber java.Feature: register" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber java.Feature: register" />
-        <item itemvalue="TestNG.webTest" />
         <item itemvalue="TestNG.E:/Interview/Bukalapak/BukalapakPreTest/src/testsuites/android.xml" />
-        <item itemvalue="Cucumber java.Feature: register (1)" />
         <item itemvalue="TestNG.E:/Interview/Bukalapak/BukalapakPreTest/src/testsuites/web.xml" />
+        <item itemvalue="TestNG.webTest" />
+        <item itemvalue="Cucumber java.Feature: register" />
+        <item itemvalue="Cucumber java.Feature: register (1)" />
       </list>
     </recent_temporary>
   </component>

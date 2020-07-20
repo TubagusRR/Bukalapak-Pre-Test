@@ -26,7 +26,7 @@ import java.net.URL;
 )
 
 public class TestRunner extends BaseClass {
-    private TestNGCucumberRunner testNGCucumberRunner;
+
     @Before({"@Website"})
     public void SetUpCucumber() throws InterruptedException {
         System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir") + "\\src\\main\\resources\\driver\\chromedriver.exe");
