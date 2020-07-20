@@ -53,7 +53,6 @@ public class WebsiteRegisterPage extends BasePage
     }
 
     public void clickAgreement() {
-//        tapWebViewWithXpath("//span[@class='c-inp__inner-lbl js-check-select__item--custom']");
         TapWebViewContainsText("Saya telah membaca dan menyetujui");
 
     }

@@ -9,8 +9,8 @@ public class androidTest extends BaseClass {
     public void RegisterPositiveCase(){
         bukalapakTest.MobileregisterPage().clickRegister();
         bukalapakTest.MobileregisterPage().register(
-                "Testingtesti",
-                "Testing1234@gmail.com",
+                "Testingasdfzw",
+                "Testing123203@gmail.com",
                 "asdfghjkl",
                 "asdfghjkl"
         );

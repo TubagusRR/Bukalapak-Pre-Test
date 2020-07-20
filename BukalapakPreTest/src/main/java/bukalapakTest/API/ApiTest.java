@@ -1,13 +1,15 @@
 package bukalapakTest.API;
 
+import io.restassured.response.Response;
 import org.hamcrest.Matchers;
 import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
+import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
 
 
 public class ApiTest {
-
+    String url = "https://jsonplaceholder.typicode.com/posts";
     String postRequest = "{\n" +
             "  \"title\": \"recommendation\",\n" +
             "  \"body\": \"motorcycle\",\n" +
@@ -15,10 +17,20 @@ public class ApiTest {
             "}";
 
     @Test(priority = 1)
-    public void CorrectTypeData(){
+    public void CorrectDataTypeJsonSchema(){
         given()
                 .when()
-                .get("https://jsonplaceholder.typicode.com/posts")
+                .get(url)
+                .then()
+                .assertThat().log().all()
+                .body(matchesJsonSchemaInClasspath("dataType.json"));
+    }
+
+    @Test(priority = 2)
+    public void CorrectDataTypeWithEqual() {
+        given()
+                .when()
+                .get(url)
                 .then()
                 .assertThat().log().all()
                 .body("userId[0]", Matchers.equalTo(1))  //integer
@@ -28,12 +40,12 @@ public class ApiTest {
                 .statusCode(200);
     }
 
-    @Test(priority = 2)
+    @Test(priority = 3)
     public void CorrectPostResponse(){
         given()
                 .when()
                 .body(postRequest)
-                .post("https://jsonplaceholder.typicode.com/posts")
+                .post(url)
                 .then()
                 .assertThat().log().all()
                 .statusCode(201);

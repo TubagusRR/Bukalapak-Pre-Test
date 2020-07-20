@@ -14,7 +14,7 @@ public class BasePage {
 
     protected AndroidDriver<AndroidElement> androidDriver;
     protected WebDriver webDriver;
-    private int maxSwipe = 10;
+    private int maxAlert = 5;
 
     public BasePage(AndroidDriver<AndroidElement> androidDriver){
         this.androidDriver = androidDriver;
@@ -48,12 +48,12 @@ public class BasePage {
 
     private WebElement findWebElementWithId(String id){
         WebElement element = null;
-        for (int i = 0; i < maxSwipe; i++){
+        for (int i = 0; i < maxAlert; i++){
             try{
                 element = webDriver.findElement(By.id(id));
                 if (ifWebElementPresent(element)) break;
             }catch (NoSuchElementException e){
-
+                e.printStackTrace();
             }
         }
         return element;
@@ -61,12 +61,12 @@ public class BasePage {
 
     private WebElement findWebElementWithXpath(String xpath){
         WebElement element = null;
-        for (int i = 0; i < maxSwipe; i++){
+        for (int i = 0; i < maxAlert; i++){
             try{
                 element = webDriver.findElement(By.xpath(xpath));
                 if (ifWebElementPresent(element)) break;
             }catch (NoSuchElementException e){
-
+                e.printStackTrace();
             }
         }
         return element;
@@ -93,19 +93,19 @@ public class BasePage {
             element = webDriver.findElement(By.xpath(xpath));
             if (ifWebElementPresent(element));
         }catch (NoSuchElementException e){
-
+            e.printStackTrace();
         }
         return element;
     }
 
     public AndroidElement findElementUsingId(String id){
         AndroidElement element = null;
-        for (int i = 0; i < maxSwipe; i++){
+        for (int i = 0; i < maxAlert; i++){
             try{
                 element = androidDriver.findElement(By.id(id));
                 if (ifElementPresent(element)) break;
             }catch (NoSuchElementException e){
-
+                e.printStackTrace();
             }
         }
         return element;
@@ -113,12 +113,12 @@ public class BasePage {
 
     public AndroidElement findElementUsingText(String text){
         AndroidElement element = null;
-        for (int i = 0; i < maxSwipe; i++){
+        for (int i = 0; i < maxAlert; i++){
             try{
                 element = androidDriver.findElementByAndroidUIAutomator("new UiSelector().text(\""+text+"\")");
                 if (ifElementPresent(element)) break;
             }catch (NoSuchElementException e){
-
+                e.printStackTrace();
             }
         }
         return element;

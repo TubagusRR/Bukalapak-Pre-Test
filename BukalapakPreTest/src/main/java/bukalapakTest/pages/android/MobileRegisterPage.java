@@ -81,10 +81,6 @@ public class MobileRegisterPage extends BasePage {
         }
     }
 
-    public void swipeUp(){
-
-    }
-
     public void register(String name, String email, String password, String confirmpassword){
         fillName(name);
         fillEmail(email);
